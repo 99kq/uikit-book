@@ -12,7 +12,7 @@
 * 在 HTML中指定编码 `<meta charset="utf-8">` ；
 * 无需使用 `@charset` 指定样式表的编码，它默认为 `UTF-8` （参考 [@charset](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset)）；
 
-#### 一律使用小写字母
+#### 使用小写字母
 ```html
 <!-- Recommended -->
 <img src="google.png" alt="Google">
@@ -29,29 +29,8 @@ color: #e5e5e5;
 color: #E5E5E5;
 ```
 
-#### 省略外链资源 URL 协议部分
-省略外链资源（图片及其它媒体资源）URL 中的 `http` / `https` 协议，使 URL 成为相对地址，避免 [Mixed Content](https://developer.mozilla.org/en-US/docs/Security/MixedContent) 问题，减小文件字节数。
+#### ~~省略外链资源 URL 协议部分~~
 
-**其它协议（`ftp` 等）的 URL 不省略。**
-```html
-<!-- Recommended -->
-<script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
-
-<!-- Not recommended -->
-<script src="http://www.google.com/js/gweb/analytics/autotrack.js"></script>
-```
-
-```css
-/* Recommended */
-.example {
-  background: url(//www.google.com/images/example);
-}
-
-/* Not recommended */
-.example {
-  background: url(http://www.google.com/images/example);
-}
-```
 
 #### 统一注释
 通过配置编辑器，可以提供快捷键来输出一致认可的注释模式。
@@ -152,3 +131,10 @@ function foo(p1, p2, p3) {
 * 使用 [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator.html.zh-cn) 来验证你的CSS代码有效性；
 
 代码验证不是最终目的，真的目的在于让开发者在经过多次的这种验证过程后，能够深刻理解到怎样的语法或写法是非标准和不推荐的，即使在某些场景下被迫要使用非标准写法，也可以做到心中有数。
+
+
+#### 统计埋点
+
+统计代码JS放在head内，如有异步加载一定用异步方式。
+
+
