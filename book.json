@@ -1,7 +1,8 @@
 {
     "plugins": [
         "ace",
-        "advanced-emoji"
+        "advanced-emoji",
+        "codepen"
     ],
     "pluginsConfig": {}
 }
