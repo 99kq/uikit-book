@@ -2,7 +2,8 @@
     "plugins": [
         "ace",
         "advanced-emoji",
-        "codepen"
+        "codepen",
+        "layout"
     ],
     "pluginsConfig": {}
 }
