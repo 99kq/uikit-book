@@ -4,7 +4,8 @@
         "advanced-emoji",
         "codepen",
         "layout",
-        "responsive-iframes"
+        "responsive-iframes",
+        "styles-less"
     ],
     "pluginsConfig": {}
 }
