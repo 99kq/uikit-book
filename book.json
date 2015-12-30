@@ -3,7 +3,8 @@
         "ace",
         "advanced-emoji",
         "codepen",
-        "layout"
+        "layout",
+        "responsive-iframes"
     ],
     "pluginsConfig": {}
 }
