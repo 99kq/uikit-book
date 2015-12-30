@@ -5,7 +5,8 @@
         "codepen",
         "layout",
         "responsive-iframes",
-        "styles-less"
+        "styles-less",
+        "styles-sass"
     ],
     "pluginsConfig": {}
 }
