@@ -1,9 +1,9 @@
 #!/bin/bash
 git checkout master
 gitbook build .
-cp -R _book/* ~/tmp/gitbook
+cp -R -a _book/* ~/tmp/gitbook
 git checkout gh-pages
-cp -R ~/tmp/gitbook/* .
+cd ~/tmp/gitbook/
 git add .
 git commit -m 'Publish by shell'
 git push origin gh-pages
