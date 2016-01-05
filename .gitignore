@@ -12,6 +12,8 @@ _book
 gitbook
 *.html
 search_index.json
+book-page
+
 
 # eBook build output
 *.epub
