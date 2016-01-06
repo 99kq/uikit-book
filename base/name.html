@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>测试页面 | UI KIT 前端规范文档</title>
+        <title>CSS命名规范 | UI KIT 前端规范文档</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.6">
@@ -53,8 +53,10 @@
         
     
     
+    <link rel="next" href="../base/html.html" />
     
-    <link rel="prev" href="../widget/form.html" />
+    
+    <link rel="prev" href="../base/readme.html" />
     
 
         
@@ -63,9 +65,9 @@
         
         
     <div class="book"
-        data-level="5"
-        data-chapter-title="测试页面"
-        data-filepath="test/chapter2.md"
+        data-level="1.1"
+        data-chapter-title="CSS命名规范"
+        data-filepath="base/name.md"
         data-basepath=".."
         data-revision="Wed Jan 06 2016 14:23:17 GMT+0800 (CST)"
         data-innerlanguage="">
@@ -112,7 +114,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1" data-path="base/name.html">
+        <li class="chapter active" data-level="1.1" data-path="base/name.html">
             
                 
                     <a href="../base/name.html">
@@ -243,7 +245,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="5" data-path="test/chapter2.html">
+        <li class="chapter " data-level="5" data-path="test/chapter2.html">
             
                 
                     <a href="../test/chapter2.html">
@@ -291,9 +293,23 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x9875;&#x9762;&#x5E03;&#x5C40;">&#x9875;&#x9762;&#x5E03;&#x5C40;</h1>
-<p><p data-height="800" data-theme-id="0" data-slug-hash="zvLLLJ" data-default-tab="result" data-user="mariemosley" class="codepen">See the Pen <a href="http://codepen.io/mariemosley/pen/zvLLLJ/"></a> by mariemosley (<a href="http://codepen.io/mariemosley">@mariemosley</a>) on <a href="http://codepen.io">CodePen</a>.</p></p>
-<iframe height="1024" width="800" src="http://zhibimo.com/read/Ashu/front-end-style-guide/" frameborder="0" allowfullscreen> </iframe>
+                        <h1 id="&#x547D;&#x540D;&#x89C4;&#x8303;">&#x547D;&#x540D;&#x89C4;&#x8303;</h1>
+<p>====</p>
+<h4 id="javascript">Javascript</h4>
+<p>&#x65B9;&#x6CD5;/&#x51FD;&#x6570;&#x7528;&#x9A7C;&#x5CF0;&#xFF0C;&#x53D8;&#x91CF;/&#x5C5E;&#x6027;&#x7528;&#x4E0B;&#x5212;&#x7EBF;</p>
+<h4 id="class-&#x4E0E;-id">Class &#x4E0E; ID</h4>
+<ul>
+<li>class &#x5E94;&#x4EE5;&#x529F;&#x80FD;&#x6216;&#x5185;&#x5BB9;&#x547D;&#x540D;&#xFF0C;&#x4E0D;&#x4EE5;&#x8868;&#x73B0;&#x5F62;&#x5F0F;&#x547D;&#x540D;&#xFF1B;</li>
+<li>class &#x4E0E; id &#x5355;&#x8BCD;&#x5B57;&#x6BCD;&#x5C0F;&#x5199;&#xFF0C;&#x591A;&#x4E2A;&#x5355;&#x8BCD;&#x7EC4;&#x6210;&#x65F6;&#xFF0C;&#x91C7;&#x7528;&#x4E0B;&#x5212;&#x7EBF;<code>_</code>&#x5206;&#x9694;&#xFF0C;&#x4E0B;&#x5212;&#x7EBF;&#x5206;&#x5272;&#x7684;&#x597D;&#x5904;&#x662F;&#x5728;IDE&#x4E2D;&#x53CC;&#x51FB;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5168;&#x9009;&#xFF1B;</li>
+<li>&#x4F7F;&#x7528;&#x552F;&#x4E00;&#x7684; id &#x4F5C;&#x4E3A; Javascript hook, &#x540C;&#x65F6;&#x907F;&#x514D;&#x521B;&#x5EFA;&#x65E0;&#x6837;&#x5F0F;&#x4FE1;&#x606F;&#x7684; class&#xFF1B;</li>
+</ul>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- Not recommended --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;j_hook left contentWrapper&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Recommended --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;j_hook&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">&quot;sidebar content_wrapper&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+</code></pre>
+
                     
                     </section>
                 
@@ -303,8 +319,10 @@
         </div>
 
         
-        <a href="../widget/form.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 表单"><i class="fa fa-angle-left"></i></a>
+        <a href="../base/readme.html" class="navigation navigation-prev " aria-label="Previous page: 基本规则"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="../base/html.html" class="navigation navigation-next " aria-label="Next page: HTML规范"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
