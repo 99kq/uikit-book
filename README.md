@@ -1,20 +1,12 @@
-UI Kit 规范前端实现
+UI Kit 前端规范文档
 =======
 
 
-* [基本规则](base/readme.md)
+之所以有规范，是为了做事更方便，沟通更简单。
 
-  - [HTML规范](base/html.md)
-  - [CSS规范](base/css.md)
-  - [CSS命名规范](base/classname.md)
-  - [javascript规范](base/javascript.md)
+规范在使用的基础上，是不断迭代更新的。
 
-* [页面布局](layout/readme.md)
+用的舒服是核心。
 
-* [页面元素](dom/readme.md)
 
-* [组件](widget/readme.md)
 
-  - [表单](widget/form.md)
-
-* [测试页面](test/chapter2.md)

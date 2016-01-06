@@ -6,7 +6,34 @@
         "layout",
         "responsive-iframes",
         "styles-less",
-        "styles-sass"
+        "styles-sass",
+        "include-codeblock",
+        "emphasize",
+        "-sharing",
+        "baidu",
+        "ga"
+
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                    "weibo", "instapaper"
+            ]
+        },
+        "ga": {
+            "token": "UA-72069120-2"
+        },
+        "baidu": {
+            "token": "YOUR TOKEN"
+        }
+    },
+    "title": "UI KIT 前端规范文档",
+    "author": "Vitrum Zhu <vitrum@sina.com>"
 }
