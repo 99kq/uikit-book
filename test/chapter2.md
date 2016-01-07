@@ -2,8 +2,11 @@
 # 页面布局
 
 
-<iframe height=530 width=320 src="http://99kq.github.io/uikit-book/demos/index.html" frameborder=0 allowfullscreen> </iframe>
+<div class="docs-demo-device" style="position: absolute;
+    right: 10px;
+    top: 80px;
+    background: #111;
+    background:url(http://99kq.github.io/uikit-book/assets/img/device.png) no-repeat;
+    padding:102px 27px;
+    z-index: 1000;"><iframe height=627 width=375 src="http://99kq.github.io/uikit-book/demos/index.html" frameborder=0 allowfullscreen> </iframe> </div>
 
-[](codepen://mariemosley/zvLLLJ?height=800&theme=0)
-
-<iframe height=1024 width=800 src="http://zhibimo.com/read/Ashu/front-end-style-guide/" frameborder=0 allowfullscreen> </iframe>
