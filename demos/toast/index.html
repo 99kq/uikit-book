@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SUI Mobile Demo</title>
+    <meta name="description" content="light7: Build mobile apps with simple HTML, CSS, and JS components.">
+    <meta name="author" content="任行">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="http://99kq.github.io/uikit-book/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Google Web Fonts -->
+
+    <link rel="stylesheet" href="http://99kq.github.io/uikit-book/dist/css/light7.css">
+    <link rel="stylesheet" href="http://99kq.github.io/uikit-book/dist/css/light7-swiper.css">
+    <link rel="stylesheet" href="http://99kq.github.io/uikit-book/dist/css/light7-swipeout.css">
+    <link rel="stylesheet" href="http://99kq.github.io/uikit-book/assets/css/demos.css">
+
+    <link rel="apple-touch-icon-precomposed" href="http://99kq.github.io/uikit-book/assets/img/apple-touch-icon-114x114.png">
+    <script src="http://99kq.github.io/uikit-book/assets/js/jquery-2.1.4.js"></script>
+    <script>
+      //ga
+    </script>
+  </head>
+  <body>
+    <div id="page-tab" class="page">
+  <header class="bar bar-nav">
+    <h1 class="title">Toast</h1>
+  </header>
+  <div class="content">
+    <div class="tabs">
+      <div class="content-block">
+        <a href="#" id='show-toast'>show toast</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>
+      $(function() {
+        $(document).on("pageInit", function() {
+          $("#show-toast").click(function() {
+            $.toast("错误信息提示  信息提示  提示  提 是 日 口 二 一");
+          });
+        });
+        $.init();
+      });
+
+    </script>
+    <script src="http://99kq.github.io/uikit-book/dist/js/light7.js"></script>
+    <script src="http://99kq.github.io/uikit-book/dist/js/light7-swiper.js"></script>
+    <script src="http://99kq.github.io/uikit-book/dist/js/light7-city-picker.js"></script>
+    <script src="http://99kq.github.io/uikit-book/dist/js/light7-swipeout.js"></script>
+    <script src="http://99kq.github.io/uikit-book/assets/js/demos.js"></script>
+  </body>
+</html>
