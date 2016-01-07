@@ -15,6 +15,10 @@ search_index.json
 book-page
 
 
+# light7 dist files
+l7-dist
+l7-demo
+
 # eBook build output
 *.epub
 *.mobi
