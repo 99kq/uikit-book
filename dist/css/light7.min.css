@@ -441,7 +441,7 @@ html:not(.watch-active-state) label.label-checkbox:active .item-inner:after,labe
 .bar .searchbar{padding:.4rem .5rem;margin:0 -.5rem;background:rgba(0,0,0,.1)}
 .bar .searchbar .search-input input{border:0}
 .bar .searchbar .searchbar-cancel{color:#666}
-.button{position:relative;display:block;height:1.35rem;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;padding:0 .5rem;margin:0;font-family:inherit;font-size:.7rem;line-height:1.25rem;color:#f54d4f;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;background:0 0;border:1px solid #f54d4f;border-radius:.25rem;-moz-appearance:none;-ms-appearance:none;appearance:none}
+.button{position:relative;display:block;height:1.35rem;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;padding:0 .5rem;margin:0;font-family:inherit;font-size:.7rem;line-height:1.25rem;color:#fff;text-align:center;text-decoration:none;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;background:#f54d4f;border:1px solid #f54d4f;border-radius:.25rem;-moz-appearance:none;-ms-appearance:none;appearance:none}
 input[type=button].button,input[type=submit].button{width:100%}
 .button:active{color:#c43e3f;border-color:#c43e3f}
 .button.button-round{border-radius:1.25rem}

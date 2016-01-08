@@ -2523,13 +2523,13 @@ label.label-checkbox.active-state .item-inner:after {
   font-family: inherit;
   font-size: .7rem;
   line-height: 1.25rem;
-  color: #f54d4f;
+  color: white;
   text-align: center;
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   cursor: pointer;
-  background: none;
+  background: #f54d4f;
   border: 1px solid #f54d4f;
   border-radius: .25rem;
 
