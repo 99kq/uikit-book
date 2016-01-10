@@ -2382,7 +2382,7 @@ Device/OS Detection
         }
         if (isToast) {
             modal.css({
-                // marginLeft: - Math.round(modal.outerWidth() / 2 / 1.185) + 'px' //1.185 是初始化时候的放大效果
+                marginLeft: - Math.round(modal.outerWidth() / 2 / 1.185) + 'px' //1.185 是初始化时候的放大效果
             });
         }
 
