@@ -6245,12 +6245,17 @@ i.icon.theme-yellow {
 Customer KQ
 ==========================*/
 /* === Dark layout === */
+.customer-kq {
+  line-height: 1;
+  color: #181818;
+  background-color: #f2f2f2;
+}
 .customer-kq .navbar,
 .navbar.customer-kq,
 .customer-kq .subnavbar,
 .subnavbar.customer-kq {
-  color: #000;
-  background-color: #fff;
+  color: #181818;
+  background-color: #f8f8f8;
 }
 .customer-kq .navbar:after,
 .navbar.customer-kq:after,
@@ -6260,8 +6265,8 @@ Customer KQ
 }
 .customer-kq .toolbar,
 .toolbar.customer-kq {
-  color: #000;
-  background-color: #fff;
+  color: #181818;
+  background-color: #f8f8f8;
 }
 .customer-kq .toolbar:before,
 .toolbar.customer-kq:before {
@@ -6298,7 +6303,7 @@ Customer KQ
 .photo-browser.customer-kq .toolbar,
 .customer-kq .view[data-page="photo-browser-slides"] .toolbar,
 .view[data-page="photo-browser-slides"].customer-kq .toolbar {
-  background: rgba(255, 255, 255, .95);
+  background: rgba(248, 248, 248, .95);
 }
 .customer-kq .tabbar a:not(.active) {
   color: #777;
@@ -6308,18 +6313,18 @@ Customer KQ
 .page.customer-kq,
 .customer-kq .panel,
 .panel.customer-kq {
-  color: #000;
-  background-color: #fff;
+  color: #181818;
+  background-color: #f2f2f2;
 }
 .customer-kq .content-block-title {
   color: #777;
 }
 .customer-kq .content-block,
 .content-block.customer-kq {
-  color: #777;
+  color: #666;
 }
 .customer-kq .content-block-inner {
-  color: #000;
+  color: #181818;
   background: #fafafa;
 }
 .customer-kq .content-block-inner:after {
@@ -6381,11 +6386,11 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
   background-color: #ddd;
 }
 .customer-kq .list-block-label {
-  color: #777;
+  color: #666;
 }
 .customer-kq .item-divider,
 .customer-kq .list-group-title {
-  color: #777;
+  color: #666;
   background: #f7f7f7;
 }
 .customer-kq .item-divider:before,
@@ -6428,4 +6433,106 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
 }
 .customer-kq .range-slider input[type="range"]:after {
   background: #fff;
+}
+.customer-kq .button {
+  border-radius: .15rem;
+}
+.customer-kq .buttons-tab .button {
+  font-size: .7rem;
+  color: #666;
+}
+.customer-kq .buttons-tab .button.active {
+  color: #f54d4f;
+  border-color: #f54d4f;
+}
+.customer-kq .kq-base-title {
+  margin: .3rem .6rem;
+  font-size: .6rem;
+  text-align: right;
+}
+.customer-kq .media-list {
+  margin: 0;
+}
+.customer-kq .list-block .item-inner:after {
+  display: none;
+}
+.customer-kq .list-block .item-content:after {
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: block;
+  width: 100%;
+  height: 1px;
+  content: '';
+  background-color: #dedede;
+  -webkit-transform-origin: 50% 100%;
+      -ms-transform-origin: 50% 100%;
+       -o-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .customer-kq .list-block .item-content:after {
+    -webkit-transform: scaleY(.5);
+        -ms-transform: scaleY(.5);
+         -o-transform: scaleY(.5);
+            transform: scaleY(.5);
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .customer-kq .list-block .item-content:after {
+    -webkit-transform: scaleY(.33);
+        -ms-transform: scaleY(.33);
+         -o-transform: scaleY(.33);
+            transform: scaleY(.33);
+  }
+}
+.customer-kq .list-block .item-content:after {
+  left: 5%;
+  width: 95%;
+}
+.customer-kq .kq-payment-list .item-subtitle {
+  font-size: .6rem;
+  color: #666;
+}
+.customer-kq .kq-payment-list .bill-status {
+  font-size: .6rem;
+  color: #666;
+}
+.customer-kq .text-danger {
+  color: #f54d4f;
+}
+.customer-kq .success-page .success-header {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+.customer-kq .success-page .success-title,
+.customer-kq .success-page .success-info {
+  text-align: center;
+}
+.customer-kq .success-page .success-title {
+  font-size: .85rem;
+  color: #181818;
+}
+.customer-kq .success-page .success-info {
+  font-size: .7rem;
+  line-height: 2rem;
+  color: #959595;
+}
+.customer-kq .success-page .list-block {
+  margin: 1.7rem 0 1rem;
+}
+.customer-kq .success-page .list-block .item-title {
+  font-size: .7rem;
+  color: #959595;
+}
+.customer-kq .success-page .list-block .item-after {
+  font-size: .7rem;
+  color: #181818;
+}
+.customer-kq .success-page .list-block .item-content:after {
+  display: none;
 }
