@@ -6261,7 +6261,7 @@ Customer KQ
 .navbar.customer-kq:after,
 .customer-kq .subnavbar:after,
 .subnavbar.customer-kq:after {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .toolbar,
 .toolbar.customer-kq {
@@ -6270,30 +6270,30 @@ Customer KQ
 }
 .customer-kq .toolbar:before,
 .toolbar.customer-kq:before {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .popover .picker-modal .picker-center-highlight:before,
 .customer-kq .picker-modal.picker-modal-inline .picker-center-highlight:before {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .popover .picker-modal .picker-center-highlight:after,
 .customer-kq .picker-modal.picker-modal-inline .picker-center-highlight:after {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .popover .picker-modal .picker-calendar-week-days:after,
 .customer-kq .picker-modal.picker-modal-inline .picker-calendar-week-days:after,
 .customer-kq .popover .picker-modal .picker-calendar-row:after,
 .customer-kq .picker-modal.picker-modal-inline .picker-calendar-row:after {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .popover .picker-modal .toolbar ~ .picker-modal-inner .picker-calendar-months:before,
 .customer-kq .picker-modal.picker-modal-inline .toolbar ~ .picker-modal-inner .picker-calendar-months:before,
 .customer-kq .popover .picker-modal .picker-calendar-week-days ~ .picker-calendar-months:before,
 .customer-kq .picker-modal.picker-modal-inline .picker-calendar-week-days ~ .picker-calendar-months:before {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .popover .picker-modal .toolbar:after {
-  background-color: #ddd;
+  background-color: #dedede;
 }
 .customer-kq .photo-browser .navbar,
 .photo-browser.customer-kq .navbar,
@@ -6535,4 +6535,52 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
 }
 .customer-kq .success-page .list-block .item-content:after {
   display: none;
+}
+.customer-kq .progress {
+  background-color: #f2f2f2;
+}
+.customer-kq .progress .progress-bar {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 33%;
+  height: .26rem;
+  margin: 0;
+  background: #d8d8d8;
+  border: 1px solid #f2f2f2;
+}
+.customer-kq .progress .progress-bar:after,
+.customer-kq .progress .progress-bar:before {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  content: " ";
+  border: solid transparent;
+}
+.customer-kq .progress .progress-bar:after {
+  margin-top: -.14rem;
+  border-width: .14rem;
+  border-left-color: #dedede;
+}
+.customer-kq .progress .progress-bar:before {
+  margin-top: -.24rem;
+  border-width: .24rem;
+  border-left-color: #f2f2f2;
+}
+.customer-kq .progress .progress-bar:first-child:after,
+.customer-kq .progress .progress-bar:first-child:before {
+  display: none;
+}
+.customer-kq .progress .progress-bar-finish,
+.customer-kq .progress .progress-bar-finish:after {
+  border-color: #ffbabc;
+  border-left-color: #ffbabc;
+}
+.customer-kq .progress .progress-bar-active,
+.customer-kq .progress .progress-bar-active:after {
+  border-color: #f54d4f;
+  border-left-color: #f54d4f;
 }
