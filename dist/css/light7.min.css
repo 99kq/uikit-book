@@ -1232,7 +1232,8 @@ body.panel-closing .page{-webkit-transition:.4s;-o-transition:.4s;transition:.4s
 .customer-kq .success-page .list-block .item-title{font-size:.7rem;color:#959595}
 .customer-kq .success-page .list-block .item-after{font-size:.7rem;color:#181818}
 .customer-kq .success-page .list-block .item-content:after{display:none}
-.customer-kq .list-block{margin-top:0}
+.customer-kq .kq-form .list-block{margin-top:0;font-size:.8rem}
+.customer-kq .kq-form .list-block .item-content:after{left:0;width:100%}
 .customer-kq .progress{position:relative;margin-left:-.2rem;text-align:center;background-color:#f2f2f2}
 .customer-kq .progress .progress-bar{position:relative;display:inline-block;float:right;width:33%;height:.26rem;margin:0;background:#dedede;border:1px solid #dedede}
 .customer-kq .progress .progress-bar:after,.customer-kq .progress .progress-bar:before{position:absolute;top:50%;left:100%;width:0;height:0;pointer-events:none;content:" ";border:solid transparent}
