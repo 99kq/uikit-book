@@ -1232,11 +1232,15 @@ body.panel-closing .page{-webkit-transition:.4s;-o-transition:.4s;transition:.4s
 .customer-kq .success-page .list-block .item-title{font-size:.7rem;color:#959595}
 .customer-kq .success-page .list-block .item-after{font-size:.7rem;color:#181818}
 .customer-kq .success-page .list-block .item-content:after{display:none}
-.customer-kq .progress{background-color:#f2f2f2}
-.customer-kq .progress .progress-bar{position:relative;display:inline-block;float:right;width:33%;height:.26rem;margin:0;background:#d8d8d8;border:1px solid #f2f2f2}
+.customer-kq .list-block{margin-top:0}
+.customer-kq .progress{position:relative;margin:.3rem -.2rem 0;text-align:center;background-color:#f2f2f2}
+.customer-kq .progress .progress-bar{position:relative;display:inline-block;float:right;width:33%;height:.26rem;margin:0;background:#dedede;border:1px solid #dedede}
 .customer-kq .progress .progress-bar:after,.customer-kq .progress .progress-bar:before{position:absolute;top:50%;left:100%;width:0;height:0;pointer-events:none;content:" ";border:solid transparent}
 .customer-kq .progress .progress-bar:after{margin-top:-.14rem;border-width:.14rem;border-left-color:#dedede}
 .customer-kq .progress .progress-bar:before{margin-top:-.24rem;border-width:.24rem;border-left-color:#f2f2f2}
 .customer-kq .progress .progress-bar:first-child:after,.customer-kq .progress .progress-bar:first-child:before{display:none}
-.customer-kq .progress .progress-bar-finish,.customer-kq .progress .progress-bar-finish:after{border-color:#ffbabc;border-left-color:#ffbabc}
-.customer-kq .progress .progress-bar-active,.customer-kq .progress .progress-bar-active:after{border-color:#f54d4f;border-left-color:#f54d4f}
+.customer-kq .progress .progress-bar-finish{background:#ffbabc;border-color:#ffbabc}
+.customer-kq .progress .progress-bar-finish:after{border-left-color:#ffbabc}
+.customer-kq .progress .progress-bar-active{background:#f54d4f;border-color:#f54d4f}
+.customer-kq .progress .progress-bar-active:after{border-left-color:#f54d4f}
+.customer-kq .progress .progress-info{font-size:.6rem;line-height:4;color:#959595;text-align:center}

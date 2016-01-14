@@ -6536,7 +6536,13 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
 .customer-kq .success-page .list-block .item-content:after {
   display: none;
 }
+.customer-kq .list-block {
+  margin-top: 0;
+}
 .customer-kq .progress {
+  position: relative;
+  margin: .3rem -.2rem 0;
+  text-align: center;
   background-color: #f2f2f2;
 }
 .customer-kq .progress .progress-bar {
@@ -6546,8 +6552,8 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
   width: 33%;
   height: .26rem;
   margin: 0;
-  background: #d8d8d8;
-  border: 1px solid #f2f2f2;
+  background: #dedede;
+  border: 1px solid #dedede;
 }
 .customer-kq .progress .progress-bar:after,
 .customer-kq .progress .progress-bar:before {
@@ -6574,13 +6580,23 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
 .customer-kq .progress .progress-bar:first-child:before {
   display: none;
 }
-.customer-kq .progress .progress-bar-finish,
-.customer-kq .progress .progress-bar-finish:after {
+.customer-kq .progress .progress-bar-finish {
+  background: #ffbabc;
   border-color: #ffbabc;
+}
+.customer-kq .progress .progress-bar-finish:after {
   border-left-color: #ffbabc;
 }
-.customer-kq .progress .progress-bar-active,
-.customer-kq .progress .progress-bar-active:after {
+.customer-kq .progress .progress-bar-active {
+  background: #f54d4f;
   border-color: #f54d4f;
+}
+.customer-kq .progress .progress-bar-active:after {
   border-left-color: #f54d4f;
+}
+.customer-kq .progress .progress-info {
+  font-size: .6rem;
+  line-height: 4;
+  color: #959595;
+  text-align: center;
 }
