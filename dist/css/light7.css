@@ -6538,11 +6538,18 @@ html:not(.watch-active-state) .customer-kq label.label-radio:active,
 }
 .customer-kq .kq-form .list-block {
   margin-top: 0;
-  font-size: .8rem;
 }
 .customer-kq .kq-form .list-block .item-content:after {
   left: 0;
   width: 100%;
+}
+.customer-kq .kq-form .list-block input,
+.customer-kq .kq-form .list-block select {
+  text-align: right;
+}
+.customer-kq .kq-form .list-block .list-group-title {
+  font-size: .6rem;
+  line-height: 2;
 }
 .customer-kq .progress {
   position: relative;
