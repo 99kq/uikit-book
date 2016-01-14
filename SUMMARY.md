@@ -12,6 +12,9 @@
 
 * [页面元素](dom/readme.md)
 
+  - [列表](dom/list.md)
+  - [progress](dom/progress.md)
+  
 * [组件](widget/readme.md)
 
   - [弹框](widget/popup.md)
